@@ -1,6 +1,5 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        
         while s != "":
             if len(s) % 2 != 0:
                 return False
